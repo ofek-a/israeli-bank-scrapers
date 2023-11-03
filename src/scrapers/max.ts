@@ -42,6 +42,7 @@ const ATM_TYPE_NAME = 'חיוב עסקות מיידי';
 const INTERNET_SHOPPING_TYPE_NAME = 'אינטרנט/חו"ל';
 const INSTALLMENTS_TYPE_NAME = 'תשלומים';
 const MONTHLY_CHARGE_TYPE_NAME = 'חיוב חודשי';
+const CHARGE_MATACH_WALLET = 'חיוב ארנק מטח';
 const ONE_MONTH_POSTPONED_TYPE_NAME = 'דחוי חודש';
 const MONTHLY_POSTPONED_TYPE_NAME = 'דחוי לחיוב החודשי';
 const MONTHLY_PAYMENT_TYPE_NAME = 'תשלום חודשי';
@@ -109,6 +110,7 @@ function getTransactionType(txnTypeStr: string) {
     case NORMAL_TYPE_NAME:
     case MONTHLY_CHARGE_TYPE_NAME:
     case ONE_MONTH_POSTPONED_TYPE_NAME:
+    case CHARGE_MATACH_WALLET:
     case MONTHLY_POSTPONED_TYPE_NAME:
     case FUTURE_PURCHASE_FINANCING:
     case MONTHLY_PAYMENT_TYPE_NAME:
